@@ -1,0 +1,60 @@
+.class-sidebar {
+    width: 320px;
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+.frame-sidebar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.di-clojure-alt {
+    margin: 0;
+    padding: 0;
+    font-size: 58px;
+    color: #221a56;
+}
+
+.frame-sidebar .class-nav-links {
+    margin-top: 2rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    gap: 1rem;
+    padding: 0.5rem 0.5rem 2rem 0.5rem;
+}
+
+.class-nav-links .nav-link {
+    padding: 12px;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 12px;
+    border-radius: 16px;
+    height: 60px;
+    text-decoration: none;
+    color: #221a56;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'PT Sans', sans-serif;
+    border: 1px solid rgba(149, 150, 151, 0.1);
+}
+
+.nav-link:active{
+    color: #221a56;
+}
