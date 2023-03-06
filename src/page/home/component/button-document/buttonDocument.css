@@ -1,6 +1,6 @@
 .button-frame-document{
-    margin: 0.5rem 0;
-    padding: 0 0.5rem;
+    margin: var(--spacing-xs) 0;
+    padding: 0 var(--spacing-xs);
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -11,17 +11,17 @@
 .button-document-page{
     cursor: pointer;
     width: fit-content;
-    padding: 0.5rem;
+    padding: var(--spacing-xs);
     border-radius: 8px;
-    border: 1px solid #221a56;
+    border: 1px solid var(--main-major);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .button-document-page:hover{
-    background-color: #221a56;
-    color: white;
+    background-color: var(--main-major);
+    color: var(--text-color);
 }
 
 .button-document-page span{
@@ -30,6 +30,6 @@
 }
 
 .button-document-page.active {
-    background-color: #221a56;
-    color: white;
+    background-color: var(--main-major);
+    color: var(--text-color);
 }

@@ -7,3 +7,14 @@ body,html {
   box-sizing: border-box;
   font-family: 'PT Sans', sans-serif;
 }
+:root{
+  --main-major: #221a56;
+  --text-color: white;
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --fs-lg: 16px;
+  --fs-2xl: 20px;
+  --fs-4xl: 24px;
+}
+
