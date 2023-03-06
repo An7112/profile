@@ -10,13 +10,12 @@ export default function Sidebar() {
       <div className='frame-sidebar'>
         <div className='logo'>
           <DiClojureAlt className='di-clojure-alt' />
-          {/* <span className='my-name'>Nguyen Thanh An</span> */}
         </div>
         <div className='class-nav-links'>
           <div className='class-nav-links'>
             {linkList.map(item => (
                 <NavLink
-                  to={`/${item.name}`}
+                  to={`/${item.link}`}
                   key={item.name}
                   style={({ isActive }) => ({
                     boxShadow: isActive ? '0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)' : '',

@@ -1,0 +1,35 @@
+.button-frame-document{
+    margin: 0.5rem 0;
+    padding: 0 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+
+.button-document-page{
+    cursor: pointer;
+    width: fit-content;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid #221a56;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-document-page:hover{
+    background-color: #221a56;
+    color: white;
+}
+
+.button-document-page span{
+    font-size: 14px;   
+    font-weight: 600;
+}
+
+.button-document-page.active {
+    background-color: #221a56;
+    color: white;
+}

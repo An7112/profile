@@ -3,15 +3,28 @@ import {CgProfile} from 'react-icons/cg'
 
 export const linkList: Array<any> = [
     {
+        link: "profile?documents=all",
         name: "profile",
         icon: <CgProfile style={{ fontSize: '18' }} />
     },
     {
+        link: "dashboard",
         name: "dashboard",
         icon: <MdSpaceDashboard style={{ fontSize: '18' }} />
     },
-    // {
-    //     name: "Profile",
-    //     icon: <CgProfile style={{ fontSize: '18' }} />
-    // },
+]
+
+export const documentLinks: Array<any> = [
+    {
+        search:'all',
+        name: "All",
+    },
+    {
+        search:'resume',
+        name: "Resume",
+    },
+    {
+        search:'cover-letter',
+        name: "Cover Letter",
+    },
 ]
