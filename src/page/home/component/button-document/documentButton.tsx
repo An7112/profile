@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { documentModal } from '../../../../modal/modal';
 import { documentLinks } from '../../../../util';
 import './buttonDocument.css'
 
@@ -16,7 +17,7 @@ export const ButtonDocument = () => {
     }
 
     return <div className='button-frame-document'>
-        {documentLinks.map(ele => {
+        {documentLinks.map((ele:documentModal) => {
             return <div
                 className={`button-document-page ${ele.search === active ? 'active' : ''}`}
                 onClick={() => handleActive(ele.search)}

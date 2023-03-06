@@ -1,8 +1,9 @@
 import React from 'react'
-import './sidebar.css'
 import { DiClojureAlt } from 'react-icons/di'
 import { NavLink } from 'react-router-dom';
 import { linkList } from '../../util/links/links';
+import { sidebarModal } from '../../modal/modal';
+import './sidebar.css'
 
 export default function Sidebar() {
   return (
@@ -13,7 +14,7 @@ export default function Sidebar() {
         </div>
         <div className='class-nav-links'>
           <div className='class-nav-links'>
-            {linkList.map(item => (
+            {linkList.map((item:sidebarModal) => (
                 <NavLink
                   to={`/${item.link}`}
                   key={item.name}

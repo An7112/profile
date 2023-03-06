@@ -1,7 +1,8 @@
 import {MdSpaceDashboard} from 'react-icons/md'
 import {CgProfile} from 'react-icons/cg'
+import { sidebarModal } from '../../modal/modal'
 
-export const linkList: Array<any> = [
+export const linkList: Array<sidebarModal> = [
     {
         link: "profile?documents=all",
         name: "profile",
